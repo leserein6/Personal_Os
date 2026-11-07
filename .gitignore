@@ -1,0 +1,30 @@
+# Personal data and credentials must stay outside the repository.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+.data/
+data/
+backups/
+*backup*.json
+
+# Generated files and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db
